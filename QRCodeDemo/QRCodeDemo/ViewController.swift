@@ -7,19 +7,29 @@
 //
 
 import UIKit
+import AVFoundation
+import QRCode
 
 class ViewController: UIViewController {
-
+    
+    let qrCodeScaner = QRCode(lineWidth: 3.0, strokeColor: UIColor.greenColor())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        qrCodeScaner.prepareScan(view) {
+            (string) in
+                if let url = NSURL(string: string) {
+                    UIApplication.sharedApplication().openURL(url)
+                }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        qrCodeScaner.startScan()
     }
-
 
 }
 

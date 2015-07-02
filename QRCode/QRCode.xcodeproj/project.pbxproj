@@ -7,123 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6930EB331B428D1800BEA6C3 /* QRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6930EB321B428D1800BEA6C3 /* QRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6930EB391B428D1800BEA6C3 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6930EB2D1B428D1800BEA6C3 /* QRCode.framework */; };
-		6930EB401B428D1800BEA6C3 /* QRCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930EB3F1B428D1800BEA6C3 /* QRCodeTests.swift */; };
+		69CB59A01B4293CF00BDDD5B /* QRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CB599F1B4293CF00BDDD5B /* QRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69CB59A61B4293CF00BDDD5B /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CB599A1B4293CF00BDDD5B /* QRCode.framework */; };
+		69CB59AD1B4293CF00BDDD5B /* QRCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB59AC1B4293CF00BDDD5B /* QRCodeTests.swift */; };
+		69CB59B81B42940A00BDDD5B /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB59B71B42940A00BDDD5B /* QRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6930EB3A1B428D1800BEA6C3 /* PBXContainerItemProxy */ = {
+		69CB59A71B4293CF00BDDD5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6930EB241B428D1800BEA6C3 /* Project object */;
+			containerPortal = 69CB59911B4293CF00BDDD5B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6930EB2C1B428D1800BEA6C3;
+			remoteGlobalIDString = 69CB59991B4293CF00BDDD5B;
 			remoteInfo = QRCode;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6930EB2D1B428D1800BEA6C3 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6930EB311B428D1800BEA6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6930EB321B428D1800BEA6C3 /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
-		6930EB381B428D1800BEA6C3 /* QRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6930EB3E1B428D1800BEA6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6930EB3F1B428D1800BEA6C3 /* QRCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTests.swift; sourceTree = "<group>"; };
+		69CB599A1B4293CF00BDDD5B /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CB599E1B4293CF00BDDD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CB599F1B4293CF00BDDD5B /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		69CB59A51B4293CF00BDDD5B /* QRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CB59AB1B4293CF00BDDD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CB59AC1B4293CF00BDDD5B /* QRCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTests.swift; sourceTree = "<group>"; };
+		69CB59B71B42940A00BDDD5B /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6930EB291B428D1800BEA6C3 /* Frameworks */ = {
+		69CB59961B4293CF00BDDD5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6930EB351B428D1800BEA6C3 /* Frameworks */ = {
+		69CB59A21B4293CF00BDDD5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6930EB391B428D1800BEA6C3 /* QRCode.framework in Frameworks */,
+				69CB59A61B4293CF00BDDD5B /* QRCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6930EB231B428D1800BEA6C3 = {
+		69CB59901B4293CF00BDDD5B = {
 			isa = PBXGroup;
 			children = (
-				6930EB2F1B428D1800BEA6C3 /* QRCode */,
-				6930EB3C1B428D1800BEA6C3 /* QRCodeTests */,
-				6930EB2E1B428D1800BEA6C3 /* Products */,
+				69CB599C1B4293CF00BDDD5B /* QRCode */,
+				69CB59A91B4293CF00BDDD5B /* QRCodeTests */,
+				69CB599B1B4293CF00BDDD5B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6930EB2E1B428D1800BEA6C3 /* Products */ = {
+		69CB599B1B4293CF00BDDD5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6930EB2D1B428D1800BEA6C3 /* QRCode.framework */,
-				6930EB381B428D1800BEA6C3 /* QRCodeTests.xctest */,
+				69CB599A1B4293CF00BDDD5B /* QRCode.framework */,
+				69CB59A51B4293CF00BDDD5B /* QRCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6930EB2F1B428D1800BEA6C3 /* QRCode */ = {
+		69CB599C1B4293CF00BDDD5B /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
-				6930EB321B428D1800BEA6C3 /* QRCode.h */,
-				6930EB301B428D1800BEA6C3 /* Supporting Files */,
+				69CB59B61B4293FD00BDDD5B /* Source */,
+				69CB599F1B4293CF00BDDD5B /* QRCode.h */,
+				69CB599D1B4293CF00BDDD5B /* Supporting Files */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
 		};
-		6930EB301B428D1800BEA6C3 /* Supporting Files */ = {
+		69CB599D1B4293CF00BDDD5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6930EB311B428D1800BEA6C3 /* Info.plist */,
+				69CB599E1B4293CF00BDDD5B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6930EB3C1B428D1800BEA6C3 /* QRCodeTests */ = {
+		69CB59A91B4293CF00BDDD5B /* QRCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6930EB3F1B428D1800BEA6C3 /* QRCodeTests.swift */,
-				6930EB3D1B428D1800BEA6C3 /* Supporting Files */,
+				69CB59AC1B4293CF00BDDD5B /* QRCodeTests.swift */,
+				69CB59AA1B4293CF00BDDD5B /* Supporting Files */,
 			);
 			path = QRCodeTests;
 			sourceTree = "<group>";
 		};
-		6930EB3D1B428D1800BEA6C3 /* Supporting Files */ = {
+		69CB59AA1B4293CF00BDDD5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6930EB3E1B428D1800BEA6C3 /* Info.plist */,
+				69CB59AB1B4293CF00BDDD5B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69CB59B61B4293FD00BDDD5B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				69CB59B71B42940A00BDDD5B /* QRCode.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6930EB2A1B428D1800BEA6C3 /* Headers */ = {
+		69CB59971B4293CF00BDDD5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6930EB331B428D1800BEA6C3 /* QRCode.h in Headers */,
+				69CB59A01B4293CF00BDDD5B /* QRCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6930EB2C1B428D1800BEA6C3 /* QRCode */ = {
+		69CB59991B4293CF00BDDD5B /* QRCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6930EB431B428D1800BEA6C3 /* Build configuration list for PBXNativeTarget "QRCode" */;
+			buildConfigurationList = 69CB59B01B4293CF00BDDD5B /* Build configuration list for PBXNativeTarget "QRCode" */;
 			buildPhases = (
-				6930EB281B428D1800BEA6C3 /* Sources */,
-				6930EB291B428D1800BEA6C3 /* Frameworks */,
-				6930EB2A1B428D1800BEA6C3 /* Headers */,
-				6930EB2B1B428D1800BEA6C3 /* Resources */,
+				69CB59951B4293CF00BDDD5B /* Sources */,
+				69CB59961B4293CF00BDDD5B /* Frameworks */,
+				69CB59971B4293CF00BDDD5B /* Headers */,
+				69CB59981B4293CF00BDDD5B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,71 +142,71 @@
 			);
 			name = QRCode;
 			productName = QRCode;
-			productReference = 6930EB2D1B428D1800BEA6C3 /* QRCode.framework */;
+			productReference = 69CB599A1B4293CF00BDDD5B /* QRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6930EB371B428D1800BEA6C3 /* QRCodeTests */ = {
+		69CB59A41B4293CF00BDDD5B /* QRCodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6930EB461B428D1800BEA6C3 /* Build configuration list for PBXNativeTarget "QRCodeTests" */;
+			buildConfigurationList = 69CB59B31B4293CF00BDDD5B /* Build configuration list for PBXNativeTarget "QRCodeTests" */;
 			buildPhases = (
-				6930EB341B428D1800BEA6C3 /* Sources */,
-				6930EB351B428D1800BEA6C3 /* Frameworks */,
-				6930EB361B428D1800BEA6C3 /* Resources */,
+				69CB59A11B4293CF00BDDD5B /* Sources */,
+				69CB59A21B4293CF00BDDD5B /* Frameworks */,
+				69CB59A31B4293CF00BDDD5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6930EB3B1B428D1800BEA6C3 /* PBXTargetDependency */,
+				69CB59A81B4293CF00BDDD5B /* PBXTargetDependency */,
 			);
 			name = QRCodeTests;
 			productName = QRCodeTests;
-			productReference = 6930EB381B428D1800BEA6C3 /* QRCodeTests.xctest */;
+			productReference = 69CB59A51B4293CF00BDDD5B /* QRCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6930EB241B428D1800BEA6C3 /* Project object */ = {
+		69CB59911B4293CF00BDDD5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = dayu;
 				TargetAttributes = {
-					6930EB2C1B428D1800BEA6C3 = {
+					69CB59991B4293CF00BDDD5B = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					6930EB371B428D1800BEA6C3 = {
+					69CB59A41B4293CF00BDDD5B = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 6930EB271B428D1800BEA6C3 /* Build configuration list for PBXProject "QRCode" */;
+			buildConfigurationList = 69CB59941B4293CF00BDDD5B /* Build configuration list for PBXProject "QRCode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6930EB231B428D1800BEA6C3;
-			productRefGroup = 6930EB2E1B428D1800BEA6C3 /* Products */;
+			mainGroup = 69CB59901B4293CF00BDDD5B;
+			productRefGroup = 69CB599B1B4293CF00BDDD5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6930EB2C1B428D1800BEA6C3 /* QRCode */,
-				6930EB371B428D1800BEA6C3 /* QRCodeTests */,
+				69CB59991B4293CF00BDDD5B /* QRCode */,
+				69CB59A41B4293CF00BDDD5B /* QRCodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6930EB2B1B428D1800BEA6C3 /* Resources */ = {
+		69CB59981B4293CF00BDDD5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6930EB361B428D1800BEA6C3 /* Resources */ = {
+		69CB59A31B4293CF00BDDD5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,33 +216,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6930EB281B428D1800BEA6C3 /* Sources */ = {
+		69CB59951B4293CF00BDDD5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CB59B81B42940A00BDDD5B /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6930EB341B428D1800BEA6C3 /* Sources */ = {
+		69CB59A11B4293CF00BDDD5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6930EB401B428D1800BEA6C3 /* QRCodeTests.swift in Sources */,
+				69CB59AD1B4293CF00BDDD5B /* QRCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6930EB3B1B428D1800BEA6C3 /* PBXTargetDependency */ = {
+		69CB59A81B4293CF00BDDD5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6930EB2C1B428D1800BEA6C3 /* QRCode */;
-			targetProxy = 6930EB3A1B428D1800BEA6C3 /* PBXContainerItemProxy */;
+			target = 69CB59991B4293CF00BDDD5B /* QRCode */;
+			targetProxy = 69CB59A71B4293CF00BDDD5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6930EB411B428D1800BEA6C3 /* Debug */ = {
+		69CB59AE1B4293CF00BDDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		6930EB421B428D1800BEA6C3 /* Release */ = {
+		69CB59AF1B4293CF00BDDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,9 +332,10 @@
 			};
 			name = Release;
 		};
-		6930EB441B428D1800BEA6C3 /* Debug */ = {
+		69CB59B11B4293CF00BDDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +345,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		6930EB451B428D1800BEA6C3 /* Release */ = {
+		69CB59B21B4293CF00BDDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -350,7 +365,7 @@
 			};
 			name = Release;
 		};
-		6930EB471B428D1800BEA6C3 /* Debug */ = {
+		69CB59B41B4293CF00BDDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -367,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		6930EB481B428D1800BEA6C3 /* Release */ = {
+		69CB59B51B4293CF00BDDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -383,32 +398,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6930EB271B428D1800BEA6C3 /* Build configuration list for PBXProject "QRCode" */ = {
+		69CB59941B4293CF00BDDD5B /* Build configuration list for PBXProject "QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6930EB411B428D1800BEA6C3 /* Debug */,
-				6930EB421B428D1800BEA6C3 /* Release */,
+				69CB59AE1B4293CF00BDDD5B /* Debug */,
+				69CB59AF1B4293CF00BDDD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6930EB431B428D1800BEA6C3 /* Build configuration list for PBXNativeTarget "QRCode" */ = {
+		69CB59B01B4293CF00BDDD5B /* Build configuration list for PBXNativeTarget "QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6930EB441B428D1800BEA6C3 /* Debug */,
-				6930EB451B428D1800BEA6C3 /* Release */,
+				69CB59B11B4293CF00BDDD5B /* Debug */,
+				69CB59B21B4293CF00BDDD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6930EB461B428D1800BEA6C3 /* Build configuration list for PBXNativeTarget "QRCodeTests" */ = {
+		69CB59B31B4293CF00BDDD5B /* Build configuration list for PBXNativeTarget "QRCodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6930EB471B428D1800BEA6C3 /* Debug */,
-				6930EB481B428D1800BEA6C3 /* Release */,
+				69CB59B41B4293CF00BDDD5B /* Debug */,
+				69CB59B51B4293CF00BDDD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6930EB241B428D1800BEA6C3 /* Project object */;
+	rootObject = 69CB59911B4293CF00BDDD5B /* Project object */;
 }
