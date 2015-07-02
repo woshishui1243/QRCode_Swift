@@ -5,7 +5,7 @@ s.summary       = 'QRCode in Swift'
 s.description   = <<-DESC
     QRCode in Swift  V1
 DESC
-s.homepage     = "https://github.com/woshishui1243/QRCode_Swift.git"
+s.homepage     = "https://github.com/woshishui1243/QRCode_Swift"
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.author             = { "DaYu" => "dayu_0518@163.com" }
 s.platform     = :ios, "8.0"
